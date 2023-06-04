@@ -14,6 +14,7 @@ export function NewTask({ onNewTask }: Props) {
         event?.preventDefault();
 
         onNewTask(newTaskText);
+        setNewTaskText("");
     }
 
     const isButtonDisabled = newTaskText.length === 0;
@@ -27,6 +28,7 @@ export function NewTask({ onNewTask }: Props) {
                 <input
                     type="text"
                     placeholder="Adicione uma nova tarefa"
+                    value={newTaskText}
                     onChange={(text) => setNewTaskText(text.target.value)}
                     required
                 />
