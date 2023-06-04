@@ -41,7 +41,7 @@ export function Task({ task, onFinishTask, onDeleteTask }: Props) {
     }
 
     return (
-        <div className={styles.container}>
+        <li className={styles.container}>
             {renderCheckBoxType()}
 
             <p
@@ -57,6 +57,6 @@ export function Task({ task, onFinishTask, onDeleteTask }: Props) {
                 onClick={handleDeleteTask}
                 size={24}
             />
-        </div>
+        </li>
     );
 }
