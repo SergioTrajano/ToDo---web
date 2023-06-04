@@ -1,0 +1,59 @@
+.container {
+    max-width: 46rem;
+
+    margin-top: calc(-1.6875rem);
+}
+
+.newTaskForm {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.newTaskForm input {
+    width: 39.875rem;
+    height: 3.375rem;
+    background-color: var(--gray-500);
+    border-radius: 8px;
+    border: 1px solid var(--gray-700);
+    padding-left: 1rem;
+    outline: none;
+
+    color: var(--gray-100);
+}
+
+.newTaskForm input::placeholder {
+    color: var(--gray-300);
+}
+
+.newTaskForm input:focus-within {
+    border: 1px solid var(--purple-700);
+}
+
+.newTaskForm button[type="submit"] {
+    width: 5.625rem;
+    height: 3.25rem;
+    border-radius: 8px;
+    background-color: var(--blue-700);
+    outline: none;
+    border: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+
+    color: var(--gray-100);
+    font-weight: bold;
+    font-size: 0.875rem;
+
+    cursor: pointer;
+}
+
+.newTaskForm button[type="submit"]:not(:disabled):hover {
+    background-color: var(--blue-400);
+}
+
+.newTaskForm button[type="submit"]:disabled {
+    cursor: not-allowed;
+}
