@@ -47,7 +47,7 @@ npm run dev
 
 ***
 
-## App preview
+## :camera: App preview
 
 <p align="center">
    <img src="https://github.com/SergioTrajano/ToDo---web/blob/main/src/assets/appPreview1.png"/>
