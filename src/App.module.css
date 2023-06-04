@@ -1,4 +1,6 @@
 .wrapper {
+    padding-bottom: 5rem;
+
     display: flex;
     flex-direction: column;
     align-items: center;
