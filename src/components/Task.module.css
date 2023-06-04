@@ -1,0 +1,58 @@
+.container {
+    width: 100%;
+    min-height: 4.5rem;
+    background-color: var(--gray-500);
+    border: 1px solid var(--gray-400);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 0.75rem;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0.75rem;
+}
+
+.checkBoxOutline {
+    color: var(--blue-400);
+
+    cursor: pointer;
+}
+
+.checkBoxOutline:hover {
+    color: var(--blue-700);
+
+    transition: color 0.5s;
+}
+
+.checkBoxFill {
+    color: var(--purple-700);
+
+    cursor: pointer;
+}
+
+.checkBoxFill:hover {
+    color: var(--purple-400);
+
+    transition: color 0.5s;
+}
+
+.container > p {
+    flex: 1;
+
+    font-size: 0.875rem;
+    color: var(--gray-100);
+}
+
+.deleteIcon {
+    color: var(--gray-300);
+
+    cursor: pointer;
+}
+
+.deleteIcon:hover {
+    color: var(--red-300);
+
+    border-radius: 4px;
+    background-color: var(--gray-400);
+}
